@@ -88,6 +88,19 @@ input[type='submit'] {
 * @bugfix input text-overflow padding ignore
 * @affected lt IE11
 */
+
+.btn-primary:hover{
+  background-color: #f15c18 !important;
+  border-color: #fff !important;
+  color: #fff !important;
+}
+
+.btn-primary{
+  background-color: #83154c !important;
+  border-color: #fff !important;
+  color: #fff !important;
+}
+
 .lt-ie11 input {
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
